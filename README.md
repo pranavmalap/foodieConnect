@@ -9,7 +9,7 @@ FoodieConnect is a recipe-sharing platform where users can upload and manage the
 - **View Recipes**: Users can view their uploaded recipes in their profile.
 - **Like & Dislike Recipes**: Users can like or dislike any recipe shared on the platform.
 - **Comment on Recipes**: Users can leave comments on recipes to share feedback or tips.
-- **Admin Access**: An admin can log in using the default credentials to manage and view all uploaded recipes.
+- **Admin Access**: An admin can log in using the default credentials to manage and view all uploaded recipes. username: admin and password: admin
 
 ## Known Issues
 
