@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.reportcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 0 0;
+  margin: auto;
+  background: #789461;
+}
+.reportcontainer .reporttable {
+  height: 500px;
+  width: 1000px;
+  border: 2px solod white;
+}
+.reportcontainer .reporttable th {
+  background: #8282c0;
+}
+.reportcontainer .reporttable td {
+  background: #e28f8f;
+  padding: 5px;
+}

@@ -1,0 +1,136 @@
+.home {
+  background-color: #dbe7c9;
+  padding: 10vh 7vw;
+}
+
+.main-slide1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.main-slide1 div:nth-child(2) {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.main-slide1 div:nth-child(1) {
+  flex: 1;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.main-slide1 div:nth-child(1) p {
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.visit-now {
+  cursor: pointer;
+  margin-top: 20px;
+  width: 140px;
+  font-weight: bold;
+  color: aliceblue;
+  line-height: 50px;
+  background-color: #50623a;
+  border-radius: 5px;
+  border: 2px solid#50623a;
+  box-shadow: #50623a;
+  transition: all 0.2s;
+}
+.visit-now:hover {
+  background-color: #5b704e;
+}
+
+.food-items {
+  margin-top: 100px;
+  margin: 70px, 0;
+  padding: 20px 0;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 250px;
+  padding: 30px;
+  text-align: center;
+}
+
+.item div {
+  height: 160px;
+}
+
+.item img {
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+.item p {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.main-slide2 {
+  margin: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foodimg {
+  flex: 0.5;
+}
+
+.foodimg img {
+  max-width: 500px;
+  width: 45vw;
+}
+
+.question {
+  flex: 0.5;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.question h2 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.q-ans {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.q-ans img {
+  width: 80px;
+}
+
+/* .q-ans div:first-child {
+  padding: 10px;
+  border-radius: 50%;
+  height: 65px;
+  text-align: center;
+  background-color: white;
+  margin-right: 20px;
+} */
+
+.q-ans div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+
+.q-ans div:nth-child(2) p {
+  margin-top: 10px;
+  font-size: 15px;
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body-container-update {
+  width: 100%;
+  height: 100vh;
+  /* background: #dbe7c9; */
+  background: #789461;
+  padding: 5rem 0;
+}
+.body-container-update .create-recipe-update {
+  display: flex;
+  /* border: 1px solid white; */
+}
+.body-container-update .create-recipe-update .videoPart {
+  width: 50%;
+  height: 500px;
+  padding: 2rem;
+}
+.body-container-update .create-recipe-update .videoPart video {
+  width: 90%;
+  height: 90%;
+}
+.body-container-update .create-recipe-update .formPart {
+  width: 50%;
+  height: 500px;
+  padding: 2rem;
+}
+.body-container-update .create-recipe-update .formPart form {
+  width: 50%;
+}

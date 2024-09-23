@@ -1,0 +1,144 @@
+
+.container {
+  width: 100%;
+  height: 100%;
+  background: #789461;
+  padding: 5rem 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Styles for each recipe item */
+.recipe-item {
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+}
+
+.recipe-item .videoPart {
+  border: 2px solid white;
+  width: 60%;
+  height: 500px;
+  padding: 25px;
+}
+.recipe-item .videoPart video {
+  width: 100%;
+  height: 90%;
+}
+.recipe-item .videoPart .likeAndComment {
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  /* align-items: center; */
+}
+.recipe-item .videoPart .likeAndComment .likeAndDis {
+  display: flex;
+  justify-content: space-around;
+}
+.recipe-item .videoPart .likeAndComment .likeAndDis button {
+  color: #fff;
+  height: 38px;
+  background: none;
+  border: none;
+}
+.recipe-item .videoPart .likeAndComment .likeAndDis button i {
+  height: 100%;
+  color: rgb(255, 0, 102);
+}
+
+.recipe-item .videoPart .likeAndComment .likefollowform {
+  display: flex;
+  justify-content: center;
+}
+.recipe-item .videoPart .likeAndComment .likefollowform input {
+  width: 400px;
+}
+.recipe-item .videoPart .likeAndComment .likefollowform button {
+  width: 75px;
+  height: 38px;
+  background: rgb(47, 65, 47);
+  border-radius: 10px;
+  color: #fff;
+  padding: 2px;
+}
+.recipe-item .detailPart {
+  width: 40%;
+  padding: 20px;
+}
+
+.recipe-item .detailPart .username {
+  /* border: 1px solid white; */
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.recipe-item .detailPart .username .smallLogo {
+  border: 1px solid white;
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  background: linear-gradient(90deg, coral, teal);
+  box-shadow: 1px 1px 1px #000;
+}
+.recipe-name {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.recipe-instructions {
+  margin-bottom: 15px;
+}
+
+.cooking-time {
+  font-style: italic;
+}
+
+.recipe-item .detailPart .showComment .commentList {
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 60px;
+  overflow-y: scroll;
+}
+.recipe-item .detailPart .showComment .commentList h4 {
+  color: rgb(20, 20, 46);
+  font-weight: 700;
+}
+
+
+@media(max-width:991px) {
+
+.container {
+  min-width: 425px;
+  max-width: 991px;
+}
+
+.container .recipe-item{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .recipe-item .videoPart{
+  width: 100%;
+}
+.container .recipe-item .detailPart{
+  width: 100%;
+}
+
+}

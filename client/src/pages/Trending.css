@@ -1,0 +1,11 @@
+.Trending-container {
+  overflow-y: hidden;
+  height: 100%;
+  padding: 5% 170px 25px 170px;
+  width: 100vw;
+  margin: 50vh 0 0 0;
+  background: #dbe7c9;
+}
+.Videos-container h1 {
+  color: #252525;
+}
